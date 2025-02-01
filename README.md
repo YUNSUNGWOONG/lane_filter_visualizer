@@ -9,6 +9,7 @@
 
 ## ✨Abstract(작품개요)
 Velodyne사의 라이다로 데이터를 수집했을때 사용할 수 있는 차선검출 코드입니다.
+해당 레포지토리를 참고하였습니다.[링크](https://github.com/kwh950724/lidar_lane_detector/tree/master)
 
 ### 💻Architecture(아키텍처)
 
