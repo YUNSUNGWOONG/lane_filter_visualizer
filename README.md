@@ -8,7 +8,7 @@
 </table>
 
 ## ✨Abstract(작품개요)
-해당 작품을 소개하는 개요글을 넣어주세요!
+Velodyne사의 라이다로 데이터를 수집했을때 사용할 수 있는 차선검출 코드입니다.
 
 ### 💻Architecture(아키텍처)
 
@@ -66,8 +66,7 @@ Ouster LiDAR는 기본적으로 Velodyne과 다른 포맷의 PointCloud 데이�
 
 
 ### 📑Contributing(기여 및 업무분장)
-
-누가 어떻게 기여했는지 적어주세요!
+윤성웅
 
 
 ## ※Appendix
