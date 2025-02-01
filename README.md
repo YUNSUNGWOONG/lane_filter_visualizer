@@ -17,7 +17,28 @@
 ### 🎮Functions(기능)
 
 ### 💡Getting Started(시작하기)
-ros_ws를 만들고 src폴더에 넣어줄것
+1.복제해넣기
+ros_ws를 만들고 src폴더에 lane_filter_visualizer레포지토리를 넣어줄것
+
+2.빌드하기
+```
+colcon build --packages-select lane_filter_visualizer
+```
+3.환경변수 잡아주기
+```
+source install/setup.bash
+```
+
+4.실행하기
+아래와 같이 세개의 터미널을 열어주고 3개의 명령어를 각각 실행시켜 준다.
+```
+ros2 launch lane_filter_visualizer lane_filter_visualizer.launch.py
+ros2 bag play ~/data -l
+rviz2
+```
+![image](https://github.com/user-attachments/assets/b83d5b6f-672c-48af-9036-db758b33454a)
+
+
 
 ### 💡Prerequisites(개발환경)
 
